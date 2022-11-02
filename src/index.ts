@@ -269,9 +269,9 @@ class Application {
         const gui = new GUI();
         gui.addColor(this._guiProperties, 'albedo');
         gui.add(this._guiProperties, 'pointLights', true);
-        gui.add(this._guiProperties, 'IBL', false);
         gui.add(this._guiProperties, 'pointLightsDiffuseOnly', false);
         gui.add(this._guiProperties, 'pointLightsSpecularOnly', false);
+        gui.add(this._guiProperties, 'IBL', false);
         gui.add(this._guiProperties, 'IBLDiffuseOnly', false);
         gui.add(this._guiProperties, 'IBLSpecularOnly', false);
         gui.add(this._guiProperties, 'texture', false);
