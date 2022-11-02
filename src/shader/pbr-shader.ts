@@ -1,7 +1,7 @@
 import { Shader } from './shader';
 
-import vertex from './pbr.vert';
-import fragment from './pbr.frag';
+import vertex from './pbr.vert?raw';
+import fragment from './pbr.frag?raw';
 
 export class PBRShader extends Shader {
   public constructor() {
